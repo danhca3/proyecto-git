@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+html{
+    background-image: url(https://media.istockphoto.com/vectors/dog-paw-cat-paw-vector-bubble-cartoon-icon-seamless-wallpaper-vector-id849513692?b=1&k=6&m=849513692&s=170667a&w=0&h=ihbBweV1hUu-eIGO69buFInqiNiI1qA3BXaiNCOEXZY=);
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+body {
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+figure {
+  margin: 0 auto;
+  width: 312px;
+}
+
+#galeria {
+  padding: 5px;
+  border: 1px solid #66CDAA;
+}
+
+#contenedor {
+  width: 960px;
+  background-color: #008080;
+  margin: 0 auto;
+}
+
+#logo {
+  margin: 20px;
+  float: left;
+}
+
+#navPrincipal {
+  float: right;
+  margin-top: 35px;
+}
+
+#navPrincipal li {
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid #20B2AA;
+  background-color: #008B8B;
+  margin: 5px;
+  width: 100px;
+  float: left;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+#navPrincipal a:link {
+  color: #556B2F;
+  text-decoration: none;
+}
+
+#navPrincipal a:visited {
+  color: #808000;
+}
+
+header {
+  background-color: #00FA9A;
+}
+
+section {
+  background-color: #31C5D1;
+  width: 590px;
+  height: 500px;
+  padding:20px;
+  float: left;
+}
+
+aside {
+  background-color: #228B22;
+  width: 290px;
+  float: left;
+  padding: 20px;
+}
+
+footer {
+  background-color: #2E8B57;
+  clear: both;
+  height: 25px;
+}
+
+aside ul{
+    padding: 1em;
+}
+
+
+
+
+ 
